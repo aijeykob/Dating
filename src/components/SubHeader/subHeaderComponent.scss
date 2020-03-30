@@ -1,0 +1,32 @@
+#subheader {
+  background-image: url('/public/images/peopleMain.jpeg');
+  display: flex;
+  flex-direction: column;
+  padding: 100px 0px;
+  justify-items: center;
+  align-items: center;
+
+  .greetingLabel {
+    font-weight: 700;
+    font-size: 1.6875rem;
+    line-height: 1.4;
+    margin-bottom: 50px;
+    color: white;
+    text-rendering: optimizeLegibility;
+    text-shadow: 1px 1px 2px black, 0 0 1em black;
+  }
+
+  .ddLabel {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: white;
+  }
+
+  #confirm {
+    background-color: #ff7c2e;
+  }
+
+  .mt-100 {
+    margin-top: 100px;
+  }
+}

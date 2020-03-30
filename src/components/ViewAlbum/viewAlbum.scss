@@ -1,0 +1,17 @@
+#viewAlbum {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 60%;
+
+  .smallImg {
+    display: flex;
+    height: 150px;
+    width: 200px;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center;
+  }
+
+}

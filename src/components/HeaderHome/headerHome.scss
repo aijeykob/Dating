@@ -1,0 +1,94 @@
+.headerHome {
+  background-color: #319dd4;
+  display: flex;
+  width: 100%;
+}
+  .redirectLabel {
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    color: white;
+    margin: 5px 0px;
+    line-height: 1.4;
+    cursor: pointer;
+
+  }
+
+  .logo {
+    height: 40px;
+  }
+
+  .dropBtn {
+    color: white;
+  }
+
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+.btn-outline-light {
+  white-space: nowrap;
+}
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+
+  .defaultMaleAvatar {
+    display: flex;
+    height: 60px;
+    width: 45px;
+    background-image: url('/public/images/defaultMan.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center;
+  }
+
+  .defaultFemaleAvatar {
+    display: flex;
+    height: 60px;
+    width: 45px;
+    background-image: url('/public/images/defaultWoman.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center;
+  }
+  .leftHeader {
+    display: flex;
+    flex-direction: column;
+    width: 28%;
+    align-items: flex-end;
+    padding: 10px 18px;
+    justify-content:center;
+  }
+  .middleHeader {
+    display: flex;
+    flex-direction: row;
+    min-width: 54%;
+    justify-content: space-between;
+    padding: 10px 18px;
+    align-items: center;
+  }
+  .rightHeader {
+    display: flex;
+    flex-direction: column;
+    max-width: 18%;
+  }

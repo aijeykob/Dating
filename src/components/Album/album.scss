@@ -1,0 +1,17 @@
+#album {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 60%;
+
+  .smallImg {
+    display: flex;
+    height: 112px;
+    width: 106px;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center;
+  }
+
+}

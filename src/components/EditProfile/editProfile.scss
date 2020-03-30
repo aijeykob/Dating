@@ -1,0 +1,113 @@
+.editProfile {
+  display: flex;
+  padding: 10px 0px;
+  flex-wrap: wrap;
+  align-items: stretch;
+  align-content: stretch;
+  justify-content: space-around;
+
+}
+
+.blueHead {
+  background-color: #319dd4;
+  text-transform: uppercase;
+  border-radius: 4px 4px 0 0;
+  cursor: default;
+  text-align: center;
+  color: white;
+  border-bottom: 1px solid #237aa5;
+}
+
+.ddLabelSearch {
+  font-size: .8rem;
+  text-transform: uppercase;
+  color: #717f8f;
+}
+
+.dropdown-menu {
+  height: auto;
+  max-height: 250px;
+  overflow-y: auto;
+}
+
+.photoButton {
+  white-space: nowrap;
+  color: #8d99a5;
+  background-color: white;
+  border: 1.5px solid #8d99a5;
+  border-radius: 3px;
+  font-size: small;
+  margin: 10px;
+}
+
+.labelBorder {
+  background-color: white;
+}
+
+.dropdown-toggle {
+  margin-top: 6px;
+  font-size: small;
+  color: #444c56;
+}
+
+.labelMiddle {
+  padding: 0px 10px 10px;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.inputText {
+  margin-top: 9px;
+  padding-left: 10px;
+  height: 35px;
+  color: #2d3339;
+  border: 1.5px solid rgb(204, 204, 204);
+  border-radius: 3px;
+  outline: none;
+}
+
+.inputText:focus {
+  border: 1.5px solid #319dd4;
+  border-radius: 3px;
+  background-color: #fafafa;
+  outline: none;
+}
+
+.dropdown-toggle::after {
+  float: right;
+  padding-top: 6px;
+  margin-top: 9px;
+
+}
+
+.dropdown-toggle {
+  padding-top: 6px;
+  margin-top: 9px;
+}
+
+#dropdown-basic-button:hover {
+  border: 2px solid #319dd4 !important;
+}
+
+
+.saveButton {
+  margin-top: 10px;
+  width: 100%;
+}
+
+.leftMainCol {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 200px;
+  padding-right: 15px;
+  //944
+  @media(max-width: 700px) {
+    padding-right: 0px;
+  }
+}
+
+.rightMainCol {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 200px;
+}

@@ -1,0 +1,33 @@
+#home {
+  display: flex;
+  background-color: #e4e7e9;
+  min-height: 858px;
+  .wrapper {
+    position: relative;
+    padding-top: 10.25%;
+
+  }
+  .bannerImg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+  }
+.leftHome {
+  display: flex;
+  flex-direction: column;
+  width: 28%;
+  align-items: flex-end;
+  padding: 20px 18px;
+}
+  .middleHome {
+    display: flex;
+    flex-direction: column;
+    min-width: 54%;
+    //max-width: 54%;
+    padding: 20px 18px;
+  }
+  .rightHome {
+  }
+}

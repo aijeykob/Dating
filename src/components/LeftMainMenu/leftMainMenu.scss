@@ -1,0 +1,24 @@
+#leftMainMenu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  width: 146px;
+
+  .menuNavigation {
+    color: #515c67;
+    font-size: .9rem;
+    padding: .6em;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    text-decoration: none;
+  }
+
+  .activeMenuNavigation {
+    color: black;
+  }
+
+  .menuNavigation:hover {
+    color: #319dd4;
+  }
+}

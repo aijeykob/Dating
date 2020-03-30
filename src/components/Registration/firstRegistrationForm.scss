@@ -1,0 +1,58 @@
+#firstRegistration {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 100px;
+  justify-content: center;
+  align-items: center;
+
+  .greetingLabel {
+    font-weight: 700;
+    font-size: 1.6875rem;
+    line-height: 1.4;
+    margin-bottom: 50px;
+    color: white;
+    text-rendering: optimizeLegibility;
+  }
+
+  .topLabel {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 1em black;
+  }
+
+  .mt-100 {
+    margin-top: 100px;
+  }
+
+  .flex-column {
+    width: 150px;
+  }
+
+  .flex-column-reverse {
+    width: 150px;
+  }
+
+  .btn-primary {
+    background-color: #ff7c2e;
+    border-color: #ff7c2e;
+  }
+
+  .dropdown-menu {
+    height: auto;
+    max-height: 250px;
+    overflow-y: auto;
+  }
+
+  .dropdown-toggle::after {
+    float: right;
+    padding-top: 6px;
+    margin-top: 9px;
+  }
+
+  .dropdown-toggle {
+    height: 35px;
+    padding-top: 6px;
+    margin-top: 9px;
+  }
+}

@@ -1,0 +1,65 @@
+#edit {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 0px;
+  justify-content: center;
+  align-items: flex-start;
+
+  .immg {
+    height: 310px;
+    width: 329px;
+    margin-top: 25px;
+    border: solid silver 1px;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center;
+  }
+
+  .deleteIcon {
+    cursor: pointer;
+  }
+
+  .btn {
+    min-width: 100px;
+    width: 100%;
+  }
+
+  .accordButton {
+    border: 1.5px solid #319dd4;
+    border-radius: 3px;
+    background-color: #fafafa;
+    outline: none;
+    font-size: small;
+  }
+
+  .form-control {
+    border: none;
+    padding-top: 5px;
+    background-color: #e4e7e9;
+  }
+
+  .inputLabel {
+    background-color: #319dd4;
+    width: 150px;
+    text-align: center;
+    border-radius: 4px;
+    color: white;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    line-height: normal;
+    padding: 4px;
+    cursor: pointer;
+  }
+
+  .inputLabel:hover {
+    background-color: #247fad;
+  }
+
+  .input__file {
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+  }
+
+}

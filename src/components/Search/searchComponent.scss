@@ -1,0 +1,78 @@
+#search {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  padding: 10px 15px 20px 20px;
+  background-color: white;
+
+  .dropdown-item {
+    height: 2rem;
+  }
+
+  .ddLabel {
+    font-size: .8rem;
+    text-transform: uppercase;
+    color: #717f8f;
+  }
+
+  .dropdown-toggle::after {
+    float: right;
+    padding-top: 6px;
+    margin-top: 9px;
+  }
+
+  .dropdown-toggle {
+    height: 35px;
+    padding-top: 6px;
+    margin-top: 9px;
+  }
+
+  .submitButton {
+    width: 100%;
+    color: white;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    line-height: normal;
+    background-color: #319dd4;
+    border-radius: 4px;
+    border: none;
+  }
+
+  .submitButton:hover {
+    background-color: #247fad;
+  }
+
+  .inputLabel {
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-size: 1rem;
+  }
+
+  .inputText {
+    padding-left: 10px;
+    height: 35px;
+    color: #2d3339;
+  }
+
+  .inputText:focus {
+    border: 1.5px solid #319dd4;
+    border-radius: 3px;
+    background-color: #fafafa;
+    outline: none;
+
+  }
+  .rowWrap {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .colWrap {
+    display: flex;
+    flex-direction: column;
+    padding: 5px 0px;
+    margin: 0px 11.5px;
+    width: 40%;
+    white-space: nowrap;
+    text-align: center;
+  }
+}

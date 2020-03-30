@@ -1,0 +1,76 @@
+
+.MainTopContainer {
+  background-color: #1a5b7b;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.MainBottomContainer {
+  background-color: #10384d;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px;
+}
+
+.textFooter {
+  background-color: #1a5b7b;
+  text-align: left;
+  color: #ffffff;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.footerLogo {
+  width: 82%;
+}
+
+.test {
+  width: 33.33333%;
+  padding-left: 10px;
+}
+
+.maxWidth75 {
+  max-width: 75%;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.logoLabel {
+  padding-left: 30px;
+}
+
+.bottomLink {
+  padding-top: 8px;
+  background-color: #1a5b7b;
+  text-align: left;
+  color: #ffffff;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.blueLine {
+  border-bottom: solid #319dd4;
+  margin-bottom: 10px;
+
+}
+
+.rightsText {
+  color: #fff;
+  font-size: 11px;
+  line-height: 1.6;
+}
+
+.colorImg {
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.divColorImg {
+  display: flex;
+  width: 32px;
+  height: 32px;
+}
